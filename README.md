@@ -13,9 +13,9 @@ Board size 40mm x 30mm. Gerber files under `export/`, original KiCad project und
 
 Building this circuit shold be straghtforward with one exception. It is recommended to solder wires directly to the PCB1 pads and avoid using pin header there.
 
-NOTE: While PCB1 connector footprint allows for soldering KK 254 / KF 2510  pin header, great care should be taken to solder those correctly. The problem is not the pin header itself, but the cable you need to use to connect it to the main board. Most pre-crimped cables available at the time of writing (2023) are the cross-wired ones (pin 1 to 5, pin 2 to 4, pin 4 to 2, ping 5 to 1). Which means if you do not pay attention you may end up cross-connecting MIC and EAR. At best, nothing will work. At worst, you may damage that precious ULA. Just get the wires with the KK 254 / KF 2510 connector on one end and carefully solder wires according to the skilscreen markings.
+NOTE: While PCB1 connector footprint allows for soldering KK 254 / KF 2510  pin header, great care should be taken to solder those correctly. The problem is not the pin header itself, but the cable you need to use to connect it to the main board. Most pre-crimped cables available at the time of writing (2023) are the cross-wired ones (pin 1 to 5, pin 2 to 4, pin 4 to 2, pin 5 to 1). Which means if you do not pay attention you may end up cross-connecting MIC and EAR. At best, nothing will work. At worst, you may damage that precious ULA. Just get the wires with the KK 254 / KF 2510 connector on one end and carefully solder wires according to the skilscreen markings.
 
-[Interactive BOM](https://github.com/jameshpdp/Spectrum-2-TapeIn/blob/main/bom/ibom.html)
+[Interactive BOM](https://htmlpreview.github.io/?https://github.com/jameshpdp/Spectrum-2-TapeIn/blob/main/bom/ibom.html)
 
 | Reference         | Item     | Count |
 | ----------------- | -------- | ----- |
